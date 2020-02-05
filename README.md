@@ -38,7 +38,7 @@ import UIKit
 import FaceSearchSDK
 ```
 
-###### Get `FaceSearchSDK.plist` from Facex.io user dashboard and add it to your project to start using.
+##### Get `FaceSearchSDK.plist` from Facex.io user dashboard and add it to your project to start using.
 
 Congratulations!  
 
