@@ -7,10 +7,8 @@ FaceSearchSDK by FaceX.io
 ![Xcode 9.0+](https://img.shields.io/badge/Xcode-9.0%2B-blue.svg)
 ![iOS 10.0+](https://img.shields.io/badge/iOS-8.0%2B-blue.svg)
 ![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)
-[![Build Status](https://travis-ci.org/TBXark/TKRadarChart.svg?branch=master)](https://travis-ci.org/TBXark/TKRadarChart)
-[![CocoaPods](http://img.shields.io/cocoapods/v/TKRadarChart.svg?style=flat)](http://cocoapods.org/?q=TKRadarChart)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/TBXark/TKRadarChart/master/LICENSE)
+[![CocoaPods](http://img.shields.io/cocoapods/v/FaceSearchSDK.svg?style=flat)](http://cocoapods.org/?q=FaceSearchSDK)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)]
 
 
 ![](DemoImage/example.png)
