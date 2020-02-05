@@ -41,22 +41,50 @@ import FaceSearchSDK
 
 Congratulations!  
 
-## Usage example
+### Usage example
+
+## Outdoor Mode (Automatic detection and result)
+```swift
+
+    let faceSearch = FaceSearch()
+    faceSearch.delegate = self
+    faceSearch.startOutdoorMode()
+    
+```
+## Manual Usage
+```swift
+
+    let faceSearch = FaceSearch()
+    faceSearch.delegate = self
+    
+    
+
+        faceS.searchFaceInDBWithImage(image:YOUR_IMAGE) { (responce, error) in
+                 // Do your stuff   
+        }
+        
+        faceS.addPersonToDBWithAdminApproval(name: "NAME", image: YOUR_IMAGE) { (suucess, error) in
+                // Do your stuff
+        }
+        
+        faceS.addPersonToDBForApproval(image: YOUR_IMAGE) { (suucess, error) in
+                // Do your stuff
+        }
+
+```
 
 
-
-### TKRadarChartDelegate
+### FaceSearchDelegate
 
 This represents the success and errors of the FaceSearchSDK.
 
 ```swift
-protocol TKRadarChartDelegate: class {
-    func colorOfTitleForRadarChart(_ radarChart: TKRadarChart) -> UIColor
-    func colorOfLineForRadarChart(_ radarChart: TKRadarChart) -> UIColor
-    func colorOfFillStepForRadarChart(_ radarChart: TKRadarChart, step: Int) -> UIColor
+protocol FaceSearchDelegate: class {
 
-    func colorOfSectionFillForRadarChart(_ radarChart: TKRadarChart, section: Int) -> UIColor
-    func colorOfSectionBorderForRadarChart(_ radarChart: TKRadarChart, section: Int) -> UIColor
+    func faceSearchPersonDetectedDelegate(responce:NSDictionary, error:NSError?)
+    
+    func faceSearchErrorDelegate(error:NSError)
+    
 }
 ```
 
