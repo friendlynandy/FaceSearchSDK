@@ -8,7 +8,8 @@ FaceSearchSDK by FaceX.io
 ![iOS 10.0+](https://img.shields.io/badge/iOS-8.0%2B-blue.svg)
 ![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)
 [![CocoaPods](http://img.shields.io/cocoapods/v/FaceSearchSDK.svg?style=flat)](http://cocoapods.org/?q=FaceSearchSDK)
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)]
+[![Updated](https://img.shields.io/github/last-commit/friendlynandy/FaceSearchSDK)](https://img.shields.io/github/last-commit/friendlynandy/FaceSearchSDK)
+[![Licence](https://img.shields.io/cocoapods/l/FaceSearchSDK?color=red&logo=red)](https://img.shields.io/cocoapods/l/FaceSearchSDK?color=red&logo=red)
 
 
 ![](DemoImage/example.png)
