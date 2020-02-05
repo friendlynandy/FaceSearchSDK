@@ -31,18 +31,20 @@ use_frameworks!
 pod 'FaceSearchSDK'
 ```
 
-To get the full benefits import `FaceSearchSDK` wherever you import UIKit
+###### To get the full benefits import `FaceSearchSDK` wherever you import UIKit
 
 ``` swift
 import UIKit
 import FaceSearchSDK
 ```
 
+Get 'FaceSearchSDK.plist' from Facex.io user dashboard and add it to your project to start using.
+
 Congratulations!  
 
 ### Usage example
 
-## Outdoor Mode (Automatic detection and result)
+#### Outdoor Mode (Automatic detection and result)
 ```swift
 
     let faceSearch = FaceSearch()
@@ -50,7 +52,7 @@ Congratulations!
     faceSearch.startOutdoorMode()
     
 ```
-## Manual Usage
+#### Manual Usage
 ```swift
 
     let faceSearch = FaceSearch()
