@@ -99,11 +99,11 @@ FaceX – [@FaceX](https://facex.io) – team@facex.io
 
 Distributed under the license. See ``LICENSE`` for more information.
 
-[https://github.com/FaceSearchSDK](https://github.com/FaceSearchSDK)
+[https://github.com/FaceSearchSDK](https://friendlynandy.github.io/FaceSearchSDK/)
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
 [swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-image]: https://img.shields.io/cocoapods/l/FaceSearchSDK?color=red&logo=red
 [license-url]: LICENSE
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
